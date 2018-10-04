@@ -3,6 +3,7 @@
 
 readstates <- function(states)
 {
+#removing rows that are not needed
     states <- states[-1,]
     num.row <- nrow(states)
     states <- states[-num.row,]
