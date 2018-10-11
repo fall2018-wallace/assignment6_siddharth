@@ -85,6 +85,16 @@
             ],
             "source": "plot.R",
             "target": "box1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "box2",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "box2.png"
         }
     ],
     "nodes": [
@@ -127,6 +137,6 @@
             "name": "box2.png"
         }
     ],
-    "updated_at": "2018-10-11 02:41:58",
+    "updated_at": "2018-10-11 02:42:05",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
