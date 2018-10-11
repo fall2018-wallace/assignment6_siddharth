@@ -125,6 +125,16 @@
             ],
             "source": "plot.R",
             "target": "barchart2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart3",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "barchart3.png"
         }
     ],
     "nodes": [
@@ -185,6 +195,6 @@
             "name": "barchart5.png"
         }
     ],
-    "updated_at": "2018-10-11 02:43:59",
+    "updated_at": "2018-10-11 02:44:06",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
