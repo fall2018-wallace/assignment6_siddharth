@@ -45,16 +45,6 @@
             ],
             "source": "plot.R",
             "target": "hist2.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "hist1",
-                    "type": "png"
-                }
-            ],
-            "source": "plot.R",
-            "target": "https://midst.syr.edu/project/assignment6_siddharth#close-modalhist1.png"
         }
     ],
     "nodes": [
@@ -80,11 +70,8 @@
         },
         {
             "name": "hist2.png"
-        },
-        {
-            "name": "https://midst.syr.edu/project/assignment6_siddharth#close-modalhist1.png"
         }
     ],
-    "updated_at": "2018-10-11 02:37:14",
+    "updated_at": "2018-10-11 02:37:36",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
