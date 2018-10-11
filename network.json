@@ -164,12 +164,6 @@
         {
             "assigned_to": "siddharth0492",
             "desc": "",
-            "name": "mergeArrests.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "siddharth0492",
-            "desc": "",
             "name": "plot.R",
             "task_status": "in progress"
         },
@@ -214,8 +208,14 @@
             "desc": "Cleaning the dataset",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "siddharth0492",
+            "desc": "Merging Arrests and Census datasert",
+            "name": "mergeArrests.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 02:48:43",
+    "updated_at": "2018-10-11 02:49:16",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
