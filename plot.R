@@ -64,7 +64,7 @@ barchart4<-ggplot(final_df,aes(x=reorder(stateName,Murder),y=murder_state,fill=p
        ggtitle("Total Murders")
 
 #plotting scatter plot       
-barchart5<-ggplot(final_df,aes(x=population,y=percentOver18)) +
+scatterplot<-ggplot(final_df,aes(x=population,y=percentOver18)) +
         geom_point(aes(size=Murder,color=Murder))
 
        
