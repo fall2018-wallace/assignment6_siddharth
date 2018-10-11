@@ -201,8 +201,11 @@
             "desc": "Plotting different histogram, boxplot and barchart",
             "name": "plot.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-11 02:55:50",
+    "updated_at": "2018-10-11 02:56:42",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
