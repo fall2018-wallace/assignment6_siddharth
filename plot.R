@@ -2,23 +2,23 @@
 library(ggplot2)
 #plotting histgram of population with specifying color,fill and binwidth
 hist1<-ggplot(final_df,aes(x=population)) +
-  geom_histogram(color="black",fill="blue",bin=20)
+  geom_histogram(color="black",fill="blue",bins=20)
 
 #plotting histgram of population with specifying color,fill and binwidth
 hist2<-ggplot(final_df,aes(x=Murder)) +
-  geom_histogram(color="black",fill="blue",bin=20)
+  geom_histogram(color="black",fill="blue",bins=20)
 
 #Plotting histogram of Assault with specifying color,fill and binwidth 
 hist3<-ggplot(final_df,aes(x=Assault)) +
-  geom_histogram(color="black",fill="blue",bin=20)
+  geom_histogram(color="black",fill="blue",bins=20)
  
 #plotting histogram of UrbanPopulation with specifying color,fill and binwidth
 hist4<-ggplot(final_df,aes(x=UrbanPop)) +
-  geom_histogram(color="black",fill="blue",bin=20)
+  geom_histogram(color="black",fill="blue",bins=20)
  
 #Plotting histogram of Rape with specifying color,fill and binwidth
 hist5<-ggplot(final_df,aes(x=Rape)) +
-  geom_histogram(color="black",fill="blue",bin=20)
+  geom_histogram(color="black",fill="blue",bins=20)
 
 #plotting boxplot of population
 box1<-ggplot(final_df,aes(y=population,x=factor(0))) +
