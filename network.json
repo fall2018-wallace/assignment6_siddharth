@@ -145,6 +145,16 @@
             ],
             "source": "plot.R",
             "target": "barchart4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "scatterplot.png"
         }
     ],
     "nodes": [
@@ -206,6 +216,6 @@
             "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-11 02:56:42",
+    "updated_at": "2018-10-11 02:59:35",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
