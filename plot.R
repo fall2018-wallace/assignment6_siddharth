@@ -38,21 +38,21 @@ box2<-ggplot(df_final,aes(y=Murder,x=factor(0))) +
 final_df$murder_state<- (final_df$Murder/100000)*final_df$population
 
 #printing df_final
-df_final
+final_df
 
 #plotting barchart with number of murders per state using geom_col function
-plot8<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
+barchart1<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col() +
        scale_y_continuous("Number of murders per state")
        
 #plotting the same barchart as previous one but with rotation of x axis texts
-plot9<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
+barchart2<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        scale_y_continuous("Number of murders per state") +
        ggtitle("Total Murders") 
        
 #plotting the same barchart as previous one but with sorting the x axis with murder rate
-plot10<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state)) +
+barchart3<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        labs(x="StateName",y="Number of murders per state")+
        ggtitle("Total Murders")
