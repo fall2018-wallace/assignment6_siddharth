@@ -39,16 +39,6 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
-                    "type": "png"
-                }
-            ],
-            "source": "plot.R",
-            "target": "hist1.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot2",
                     "type": "png"
                 }
@@ -79,12 +69,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "hist1.png"
-        },
-        {
             "name": "hist2.png"
         }
     ],
-    "updated_at": "2018-10-11 02:12:48",
+    "updated_at": "2018-10-11 02:31:23",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
