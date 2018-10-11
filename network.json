@@ -163,11 +163,6 @@
         },
         {
             "assigned_to": "siddharth0492",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "siddharth0492",
             "desc": "",
             "name": "mergeArrests.R",
             "task_status": "in progress"
@@ -213,8 +208,14 @@
         },
         {
             "name": "scatterplot.png"
+        },
+        {
+            "assigned_to": "siddharth0492",
+            "desc": "Cleaning the dataset",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 02:45:26",
+    "updated_at": "2018-10-11 02:48:43",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
