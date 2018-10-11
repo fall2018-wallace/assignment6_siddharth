@@ -24,6 +24,17 @@
             ],
             "source": "clean.R",
             "target": "mergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "final_df",
+                    "output": "df_final",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "mergeArrests.R",
+            "target": "plot.R"
         }
     ],
     "nodes": [
@@ -46,6 +57,6 @@
             "name": "plot.R"
         }
     ],
-    "updated_at": "2018-10-11 02:07:16",
+    "updated_at": "2018-10-11 02:08:02",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
