@@ -36,10 +36,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "siddharth0492",
             "desc": "",
-            "name": "mergeArrests.R"
+            "name": "mergeArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "plot.R"
         }
     ],
-    "updated_at": "2018-10-11 02:03:34",
+    "updated_at": "2018-10-11 02:07:16",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
