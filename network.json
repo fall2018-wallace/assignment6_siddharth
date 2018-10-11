@@ -211,11 +211,11 @@
         },
         {
             "assigned_to": "siddharth0492",
-            "desc": "Merging Arrests and Census datasert",
+            "desc": "Merging Arrests and Census dataset",
             "name": "mergeArrests.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 02:49:16",
+    "updated_at": "2018-10-11 02:49:25",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
