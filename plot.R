@@ -2,23 +2,23 @@
 library(ggplot2)
 #plotting histgram of population with specifying color,fill and binwidth
 hist1<-ggplot(final_df,aes(x=population)) +
-  geom_histogram(color="black",fill="red",bin=20)
+  geom_histogram(color="black",fill="blue",bin=20)
 
 #plotting histgram of population with specifying color,fill and binwidth
 hist2<-ggplot(final_df,aes(x=Murder)) +
-  geom_histogram(color="black",fill="red",bin=20)
+  geom_histogram(color="black",fill="blue",bin=20)
 
 #Plotting histogram of Assault with specifying color,fill and binwidth 
 hist3<-ggplot(final_df,aes(x=Assault)) +
-  geom_histogram(color="black",fill="red",bin=20)
+  geom_histogram(color="black",fill="blue",bin=20)
  
 #plotting histogram of UrbanPopulation with specifying color,fill and binwidth
 hist4<-ggplot(final_df,aes(x=UrbanPop)) +
-  geom_histogram(color="black",fill="red",bin=20)
+  geom_histogram(color="black",fill="blue",bin=20)
  
 #Plotting histogram of Rape with specifying color,fill and binwidth
 hist5<-ggplot(final_df,aes(x=Rape)) +
-  geom_histogram(color="black",fill="red",bin=20)
+  geom_histogram(color="black",fill="blue",bin=20)
 
 #plotting boxplot of population
 box1<-ggplot(df_final,aes(y=population,x=factor(0))) +
@@ -41,30 +41,30 @@ final_df$murder_state<- (final_df$Murder/100000)*final_df$population
 final_df
 
 #plotting barchart with number of murders per state using geom_col function
-barchart1<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
+barchart1<-ggplot(final_df,aes(x=stateName,y=murder_state)) +
        geom_col() +
        scale_y_continuous("Number of murders per state")
        
 #plotting the same barchart as previous one but with rotation of x axis texts
-barchart2<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
+barchart2<-ggplot(final_df,aes(x=stateName,y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        scale_y_continuous("Number of murders per state") +
        ggtitle("Total Murders") 
        
 #plotting the same barchart as previous one but with sorting the x axis with murder rate
-barchart3<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state)) +
+barchart3<-ggplot(final_df,aes(x=reorder(stateName,Murder),y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        labs(x="StateName",y="Number of murders per state")+
        ggtitle("Total Murders")
        
 #same as previous but showing percentOver18 as fill color
-plot11<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state,fill=percentOver18)) +
+barchart4<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state,fill=percentOver18)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        labs(x="StateName",y="Number of murders per state")+
        ggtitle("Total Murders")
 
 #plotting scatter plot       
-plot12<-ggplot(df_final,aes(x=population,y=percentOver18)) +
+barchart5<-ggplot(final_df,aes(x=population,y=percentOver18)) +
         geom_point(aes(size=Murder,color=Murder))
 
        
