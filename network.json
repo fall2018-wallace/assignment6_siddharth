@@ -145,16 +145,6 @@
             ],
             "source": "plot.R",
             "target": "barchart4.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "barchart5",
-                    "type": "png"
-                }
-            ],
-            "source": "plot.R",
-            "target": "scatterplot.png"
         }
     ],
     "nodes": [
@@ -195,9 +185,6 @@
             "name": "barchart4.png"
         },
         {
-            "name": "scatterplot.png"
-        },
-        {
             "assigned_to": "siddharth0492",
             "desc": "Cleaning the dataset",
             "name": "clean.R",
@@ -216,6 +203,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 02:55:24",
+    "updated_at": "2018-10-11 02:55:50",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
