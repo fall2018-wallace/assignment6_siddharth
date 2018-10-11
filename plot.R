@@ -17,15 +17,15 @@ hist4<-ggplot(final_df,aes(x=UrbanPop)) +
   geom_histogram(color="black",fill="red",bin=20)
  
 #Plotting histogram of Rape with specifying color,fill and binwidth
-plot5<-ggplot(df_final,aes(x=Rape)) +
+hist5<-ggplot(final_df,aes(x=Rape)) +
   geom_histogram(color="black",fill="red",bin=20)
 
 #plotting boxplot of population
-plot6<-ggplot(df_final,aes(y=population,x=factor(0))) +
+box1<-ggplot(df_final,aes(y=population,x=factor(0))) +
        geom_boxplot()
 
 #plotting boxplot of murder rate
-plot7<-ggplot(df_final,aes(y=Murder,x=factor(0))) +
+box2<-ggplot(df_final,aes(y=Murder,x=factor(0))) +
        geom_boxplot()
 
        
@@ -35,7 +35,7 @@ plot7<-ggplot(df_final,aes(y=Murder,x=factor(0))) +
 #while box plot gives information about quartiles, median, outliers etc. 
 
 # calculating number of murders per state and adding the vector to already existing dataset
-df_final$murder_state<- (df_final$Murder/100000)*df_final$population
+final_df$murder_state<- (final_df$Murder/100000)*final_df$population
 
 #printing df_final
 df_final
