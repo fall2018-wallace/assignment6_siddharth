@@ -17,12 +17,144 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
+                    "input": "census",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
                 }
             ],
             "source": "clean.R",
-            "target": "data.csv"
+            "target": "mergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "final_df",
+                    "output": "df_final",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "mergeArrests.R",
+            "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist1",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "hist1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist2",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "hist2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist3",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "hist3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist4",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "hist4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "box1",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "box1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "box2",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "box2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist5",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "hist5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart1",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "barchart1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart2",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "barchart2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart3",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "barchart3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart4",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "barchart4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "scatterplot.png"
         }
     ],
     "nodes": [
@@ -30,12 +162,60 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "name": "hist1.png"
         },
         {
-            "name": "data.csv"
+            "name": "hist2.png"
+        },
+        {
+            "name": "hist3.png"
+        },
+        {
+            "name": "hist4.png"
+        },
+        {
+            "name": "box1.png"
+        },
+        {
+            "name": "box2.png"
+        },
+        {
+            "name": "hist5.png"
+        },
+        {
+            "name": "barchart1.png"
+        },
+        {
+            "name": "barchart2.png"
+        },
+        {
+            "name": "barchart3.png"
+        },
+        {
+            "name": "barchart4.png"
+        },
+        {
+            "assigned_to": "siddharth0492",
+            "desc": "Cleaning the dataset",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "siddharth0492",
+            "desc": "Merging Arrests and Census dataset",
+            "name": "mergeArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "siddharth0492",
+            "desc": "Plotting different histogram, boxplot and barchart",
+            "name": "plot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-04 16:48:12",
+    "updated_at": "2018-10-11 02:59:35",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
