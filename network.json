@@ -54,7 +54,7 @@
                 }
             ],
             "source": "plot.R",
-            "target": "hist1.png"
+            "target": "https://midst.syr.edu/project/assignment6_siddharth#close-modalhist1.png"
         }
     ],
     "nodes": [
@@ -82,9 +82,9 @@
             "name": "hist2.png"
         },
         {
-            "name": "hist1.png"
+            "name": "https://midst.syr.edu/project/assignment6_siddharth#close-modalhist1.png"
         }
     ],
-    "updated_at": "2018-10-11 02:31:54",
+    "updated_at": "2018-10-11 02:37:14",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
