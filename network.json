@@ -35,16 +35,6 @@
             ],
             "source": "mergeArrests.R",
             "target": "plot.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot2",
-                    "type": "png"
-                }
-            ],
-            "source": "plot.R",
-            "target": "hist2.png"
         }
     ],
     "nodes": [
@@ -67,11 +57,8 @@
             "desc": "",
             "name": "plot.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "hist2.png"
         }
     ],
-    "updated_at": "2018-10-11 02:37:36",
+    "updated_at": "2018-10-11 02:37:40",
     "url": "https://github.com/fall2018-wallace/assignment6_siddharth"
 }
