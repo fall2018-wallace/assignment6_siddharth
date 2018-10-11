@@ -29,9 +29,9 @@ box2<-ggplot(final_df,aes(y=Murder,x=factor(0))) +
        geom_boxplot()
 
        
-# I think which visualisation is important depends on what type of analysis you want to do.
+#Which visualisation is important depends on what type of analysis you want to do.
 #Since both the plots focus on different areas like histogram states frequency distribution,i.e.,
-# how often each value in the data set occur(total count)
+#How often each value in the data set occurs
 #while box plot gives information about quartiles, median, outliers etc. 
 
 # calculating number of murders per state and adding the vector to already existing dataset
