@@ -4,5 +4,5 @@ library(ggplot2)
 plot1<-ggplot(final_df,aes(x=population)) +
   geom_histogram(color="black",fill="red",bin=20)
 
-plot2<-ggplot(df_final,aes(x=Murder)) +
+plot2<-ggplot(final_df,aes(x=Murder)) +
   geom_histogram(color="black",fill="red",bin=20)
